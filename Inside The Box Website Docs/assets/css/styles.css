@@ -1,0 +1,63 @@
+#heroVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(0.7) blur(2px);
+  z-index: -4;
+}
+
+.heading {
+  color: white;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background-color: rgba(140, 207, 253, 0.7);
+  width: 60%;
+  padding-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.center {
+  padding-top: 15%;
+}
+
+.divider {
+  width: 50px;
+}
+
+.responsive-size {
+  max-width: 300px;
+  min-width: 125px;
+  max-height: 300px;
+  min-height: 125px;
+}
+
+.center-image {
+  margin: auto;
+}
+
+.grid-content-middle {
+  justify-content: center;
+}
+
+/* sections */
+
+.main-content-sections {
+  background-color: #8ccffd;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  border-radius: 40px;
+}
+
